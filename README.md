@@ -6,8 +6,7 @@ Paste any wallet — no connect, no sign-up — and see its LP positions across
 **Orca, Raydium & Meteora**: value, fees to collect, net PnL, and realized APR
 computed from the fees each position actually captured. Every number is
 reconstructed from on-chain transactions, and every event in the position log
-links to its transaction on Solscan. Where a number can't be proven on-chain,
-we show an honest "—" and say why.
+links to its transaction on Solscan. 
 
 **[onix.finance](https://onix.finance)** ·
 [@Onix_Finance](https://twitter.com/Onix_Finance) ·
