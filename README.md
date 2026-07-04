@@ -1,16 +1,27 @@
-## Hi there 👋
+# Onix.Finance
 
-<!--
-**onixservices/onixservices** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**The honest LP position manager for Solana.**
 
-Here are some ideas to get you started:
+Paste any wallet — no connect, no sign-up — and see its LP positions across
+**Orca, Raydium & Meteora**: value, fees to collect, net PnL, and realized APR
+computed from the fees each position actually captured. Every number is
+reconstructed from on-chain transactions, and every event in the position log
+links to its transaction on Solscan. Where a number can't be proven on-chain,
+we show an honest "—" and say why.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**[onix.finance](https://onix.finance)** ·
+[@Onix_Finance](https://twitter.com/Onix_Finance) ·
+[DefiLlama](https://defillama.com/protocol/onixswap)
+
+## What's here
+
+- [`dimension-adapters`](https://github.com/onixservices/dimension-adapters) —
+  our DefiLlama fees adapter, [merged upstream](https://github.com/DefiLlama/dimension-adapters/pull/7225).
+  Our complete platform-fee history is public.
+- `solana-lp-utils` *(in the works)* — open-source (MIT) toolkit of Solana LP
+  building blocks: tick/bin math, pool-price & range helpers, and minimal
+  position-state readers for Orca Whirlpools, Raydium CLMM and Meteora DLMM.
+
+## Contact
+
+contact@onix.finance
